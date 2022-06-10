@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.TilePane?>
+
+<BorderPane fx:id="mapBorder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controleur.Controleur">
+   <center>
+      <Pane fx:id="mapPane" BorderPane.alignment="CENTER">
+         <children>
+            <TilePane fx:id="mapCarte1" prefColumns="30" prefRows="20" />
+                <Pane fx:id="inventaire1" layoutX="860.0" layoutY="320.0" opacity="0.80" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: white;">
+               <children>
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+	            </Pane>
+         </children>
+         
+      </Pane>
+          
+   </center>
+</BorderPane>
