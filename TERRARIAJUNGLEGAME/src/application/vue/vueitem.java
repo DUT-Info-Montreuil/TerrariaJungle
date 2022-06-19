@@ -1,11 +1,19 @@
 package application.vue;
 
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.value.ChangeListener;
 import javafx.collections.ListChangeListener;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import application.modele.Items;
+import application.modele.Personnage;
+import application.modele.Terrain;
+import application.modele.pnj;
 
 import application.modele.Epee;
+import application.modele.Inventaire;
 
 
 public class vueitem implements ListChangeListener<Items> {

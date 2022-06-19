@@ -21,8 +21,8 @@ public class Bloc {
 	}
 //	public int addbloc() {
 //		int x= getX()/32;
-//	
-//		
+//
+//
 //	}
 
 	public String getId() {
