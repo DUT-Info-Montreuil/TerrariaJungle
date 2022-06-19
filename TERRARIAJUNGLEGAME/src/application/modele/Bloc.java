@@ -6,15 +6,15 @@ import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 
 public class Bloc {
-	
+
 	private String id;
 	private IntegerProperty xProperty;
 	private IntegerProperty yProperty;
 	private int verif;
 //	private int pv;
 
-	
-	public Bloc (String i,int x ,int y){  
+
+	public Bloc (String i,int x ,int y){
 		this.id = i;
 		this.xProperty =new SimpleIntegerProperty(x) ;
 		this.yProperty =new SimpleIntegerProperty(y) ;
@@ -24,7 +24,7 @@ public class Bloc {
 //	
 //		
 //	}
-	
+
 	public String getId() {
 		return this.id;
 	}
