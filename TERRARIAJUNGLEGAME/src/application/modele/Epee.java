@@ -8,13 +8,9 @@ public class Epee extends Arme{
 		super("Epée", att, id, portee1, defense);
 		// TODO Auto-generated constructor stub
 	}
-
+	
 
 	public String toString() {
 		return "Epee";
-	}
-	public int getattaque() {
-		return this.getPointAttaque();
-
 	}
 }

@@ -55,4 +55,4 @@ public class Bloc {
 //	public int getVie() {
 //		return this.pv;
 //	}
-} 
+}

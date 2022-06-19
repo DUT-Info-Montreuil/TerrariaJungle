@@ -1,10 +1,10 @@
 package application.modele;
 
 public class Terrain {
-
+	
 	private int largeur ;
 	private int hauteur ;
-
+	
 	private int[] codesTuiles = {747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,
 			747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,
 			747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,747,
@@ -30,19 +30,19 @@ public class Terrain {
 		this.largeur=x;
 		this.hauteur=y;
 	}
-
+	
 	public int getIndice(int x) {
-		return this.codesTuiles[x];
+        return this.codesTuiles[x];
 	}
 	public int terrain(int x ,int y) {
 		return codesTuiles[x/32+y/32];
 	}
-
+	
 	public void modifierTuile(int x, int y, int nouveauCodeTuile) {
-		codesTuiles[x/32+y/32*getLargeur()]=nouveauCodeTuile;
-
+		 codesTuiles[x/32+y/32*getLargeur()]=nouveauCodeTuile;
+		 
 	}
-
+	
 	public int[] getCodesTuiles() {
 		return this.codesTuiles;
 	}
@@ -52,14 +52,14 @@ public class Terrain {
 //	public void  bloc() {
 //		
 //	}
-
+	
 	public int getLargeur() {
 		return this.largeur;
 	}
-
+	
 	public int getHauteur() {
 		return this.hauteur;
 	}
-
-
+	
+	
 }

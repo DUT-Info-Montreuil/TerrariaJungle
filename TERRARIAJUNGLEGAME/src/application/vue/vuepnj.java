@@ -36,7 +36,7 @@ public class vuepnj {
 	
 	public void afficherPersonnage() {
 		if(perso instanceof pnj) {
-				image= new ImageView("image/luffyDroit.png");
+				image= new ImageView("image/persoPrinc1droite.png");
 				image.setId(perso.getId());
 				image.translateXProperty().bind(perso.xProperty());
 				image.translateYProperty().bind(perso.yProperty());
@@ -44,7 +44,7 @@ public class vuepnj {
 				
 		
 				
-				image2= new ImageView("image/luffyGauche.png");
+				image2= new ImageView("image/persoPrinc1.png");
 				image2.setId(perso.getId());
 				image2.translateXProperty().bind(perso.xProperty());
 				image2.translateYProperty().bind(perso.yProperty());
