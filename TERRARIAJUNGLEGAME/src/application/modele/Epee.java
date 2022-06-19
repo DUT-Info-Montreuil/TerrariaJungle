@@ -13,4 +13,8 @@ public class Epee extends Arme{
 	public String toString() {
 		return "Epee";
 	}
+	public int getattaque() {
+		return this.getPointAttaque();
+		
+	}
 }

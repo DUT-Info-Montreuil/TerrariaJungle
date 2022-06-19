@@ -24,7 +24,9 @@ public class Arme extends Items{
 	public int getPointDefense() {
 		return defense;
 	}
-	
+	public int getPorte() {
+		return this.portee;
+	}
 	public String getId() {
 		return this.id;
 	}
